@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en <FirsApp /> Debe de hacer match con el snapshot 1`] = `
+<div>
+  <h1
+    data-testid="test-title"
+  >
+     
+    Hola soy Oscar
+     
+  </h1>
+  <p>
+    123
+  </p>
+  <p>
+    123
+  </p>
+  <p>
+    Oscar Espinoza
+  </p>
+</div>
+`;
