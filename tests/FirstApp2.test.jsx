@@ -2,15 +2,15 @@ import { render, screen } from '@testing-library/react';
 import { FirstApp } from '../src/FirstApp';
 
 describe('Prueba en <FirsApp />', () => {
-  const title = 'Hola soy Oscar';
-  const subTitle = 'Soy un subtitulo';
+  const title = 'Assetplam';
+  const subTitle = '';
 
   test('Debe de hacer match con el snapshot', () => {
     const { container } = render(<FirstApp title={title} />);
     expect(container).toMatchSnapshot();
   });
 
-  test('Debe de mostrar el mensaje "Hola soy oscar"', () => {
+  test('Debe de mostrar el mensaje "Assetplam"', () => {
     render(<FirstApp title={title} />);
     // screen.debug();
     expect(screen.getByText(title)).toBeTruthy();
